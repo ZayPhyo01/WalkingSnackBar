@@ -16,7 +16,7 @@
 
 
 <h5>For eg .  <code> WalkingSnackbar.make(binding.rootLayout,"hello message").show()</code> </h5>
-<h5>Use <code>.show()</code> to start showing snackbar </h5>
+
 <h5>For duration <code>.setDuration(10000)</code> </h5>
 
 <h3>This is just a simple default snackbar usage.</h3>
@@ -49,3 +49,25 @@
 <h5>Use <code>.show()</code> to start showing snackbar </h5>
 
 <h5><code>withCustomLayout(inflater: LayoutInflater,containerView: ViewGroup): View?</code> to add custom layout binding , default snackbar will use when return null</h5>
+
+<p>For first parameter <b>view<b> </p>
+  
+  <h3>Usage of view parameter</h3>
+  
+  <p>When you add one of view in your layout hierarchy , <b>(not WalkingSnackbarContainer view)</b> then it will search up to suitable parent view<br>
+    <i>Default searching behaviour of snackbar)</i>
+</p>
+  <p>‼️ But... when you add <code>WalkingSnackbarContainer</code> view , then it will use it as parent to customize your viewgroup position and measurement .</p>
+  
+  <h1>Note..</h1>
+  
+  <p>When you add <code>WalkingSnackbarContainer</code> view in your layout hierarchy
+  and you add another parent or sibling view in first parameter , then it will search <code>WalkingSnackbarContainer</code> in your layout first,
+    and it will only use default suitale view when no <code>WalkingSnackbarContainer</code> in your layout
+  </p>
+  
+    <h1>Suggestion..</h1>
+  
+      <p>if you have <code>WalkingSnackbarContainer</code> view in your layout hierarchy , then directly add this view in parameter</p>
+ 
+  
