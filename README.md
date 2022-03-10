@@ -79,5 +79,11 @@
   
   <p>Otherwise it will search  <code>WalkingSnackbarContainer</code> by using <code>Depth First Search Algorithm</code> before searching suitable view as default snackbar<h3> and as we known that with complexity O(V + E)</h3>.
   </p>
+  
+  <br>
+  <img src = "https://github.com/ZayPhyo01/WalkingSnackBar/blob/main/app/image/image2.png" width = "400" height = "300"/>
+   </br>
+  <strong>With random added view will transver with DFS to get <code>WalkingSnackbarContainer</code> </strong>
+   </br> </br> </br>
  
   
