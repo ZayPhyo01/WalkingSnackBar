@@ -72,6 +72,11 @@
     because it will take parent searching with complexity <h3>O(1)</h3>.
   </p>
   
+  <img src = "https://github.com/ZayPhyo01/WalkingSnackBar/blob/main/app/image/image1.png" width = "400" height = "300"/>
+    </br>
+  <strong>With direct add <code>WalkingSnackbarContainer</code> container view </strong>
+   </br> </br> </br>
+  
   <p>Otherwise it will search  <code>WalkingSnackbarContainer</code> by using <code>Depth First Search Algorithm</code> before searching suitable view as default snackbar<h3> and as we known that with complexity O(V + E)</h3>.
   </p>
  
