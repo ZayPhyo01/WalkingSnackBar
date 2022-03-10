@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btnBar.setOnClickListener {
             WalkingSnackbar.make(
-                binding.rootLayout , "hello message" , decorator = object : WalkingSnackbar.Decorator{
+                binding.rootLayout,
+                "hello message",
+                decorator = object : WalkingSnackbar.Decorator {
                     override fun contentIn(view: View) {
                         ObjectAnimator.ofFloat(
                             view, View.TRANSLATION_X, -500f, 0f
@@ -35,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                         return binding.root
                     }
                 }
-            ).show()
+            ).setDuration(100000).show()
         }
     }
 }
