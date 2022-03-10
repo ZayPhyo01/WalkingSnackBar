@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="app/src/main/res/layout/custom_snack_bar.xml" value="0.1375" />
+        <entry key="app/src/main/res/layout/custom_snack_bar.xml" value="0.125" />
         <entry key="walkingSnackbar/src/main/res/layout/default_snack_bar.xml" value="0.25416666666666665" />
       </map>
     </option>
