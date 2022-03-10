@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.me.walkingsnackbar.WalkingSnackbarView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#444"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:padding="0dp"
+    tools:parentTag="android.widget.LinearLayout">
+
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="14dp"
+        tools:text = "Hi snackbar"
+        android:textColor="#fff" />
+</com.me.walkingsnackbar.WalkingSnackbarView>
