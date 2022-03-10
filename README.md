@@ -66,8 +66,13 @@
     and it will only use default suitale view when no <code>WalkingSnackbarContainer</code> in your layout
   </p>
   
-    <h1>Suggestion..</h1>
+  <h1>Suggestion..</h1>
   
-      <p>if you have <code>WalkingSnackbarContainer</code> view in your layout hierarchy , then directly add this view in parameter</p>
+  <p>if you have <code>WalkingSnackbarContainer</code> view in your layout hierarchy , then directly add this view in parameter
+    because it will take parent searching with complexity <h3>O(1)</h3>.
+  </p>
+  
+  <p>Otherwise it will search  <code>WalkingSnackbarContainer</code> by using <code>Depth First Search Algorithm</code> before searching suitable view as default snackbar<h3> and as we known that with complexity O(V + E)</h3>.
+  </p>
  
   
